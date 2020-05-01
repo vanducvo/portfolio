@@ -44,7 +44,7 @@ class NavModal extends React.Component{
         super(props);
         this.root = this.props.root;
         this.element = document.createElement('div');
-        this.element.className = "h-full w-full fixed bg-gray-300 bg-opacity-50";
+        this.element.className = "h-full w-full fixed top-0 left-0 bg-gray-300 bg-opacity-50";
     }
 
     componentDidMount(){
@@ -118,7 +118,7 @@ class Navigation extends React.Component{
 
         let modalNavRoot = document.getElementById("modal-nav");
         return (
-            <nav className="flex items-center justify-between flex-wrap p-2 bg-teal-500" id="navbar">
+            <nav className="flex items-center justify-between flex-wrap p-2 bg-teal-500 fixed top-0 left-0 w-full" id="navbar">
                 <NavName name={"V.Duc Portfolio"}/>
                 <ToggleButton handle={this.toogleVerticalNav}/>
                 <NavLinks links = {links}/>
