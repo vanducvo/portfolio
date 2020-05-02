@@ -61,7 +61,7 @@ function Education(props) {
         { name: '...'},
     ];
     return (
-        <div id="education" className="w-full mt-2 rounded shadow-md bg-gray-100 pt-2 md:px-2 md:w-3/4 md:my-0">
+        <div id="education" className="w-full mt-2 rounded shadow-md bg-gray-100 pt-2 md:px-2 md:w-5/12 md:my-0">
             <div className="px-6 py-1">
                 <p className="font-bold text-xl mb-1">Education</p>
                 <ELists elist={elist} />

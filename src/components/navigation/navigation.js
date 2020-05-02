@@ -15,7 +15,7 @@ function NavName(props){
 
 function NavLink(props){
     return (
-        <a href={props.link} className="text-lg py-2 px-4 border-teal-500 block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white rounded-sm border-solid border hover:border-white mr-4">
+        <a href={props.link} className="text-lg py-2 px-1 border-teal-500 block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white rounded-sm border-solid border hover:border-white mr-4">
             {props.name} 
         </a>
     );
@@ -103,16 +103,20 @@ class Navigation extends React.Component{
                 link: "#aboutme"
             },
             {
-                name: "Contact",
-                link: "#contact"
-            },
-            {
                 name: "Education",
                 link: "#education"
             },
             {
+                name: "Skill",
+                link: "#skill"
+            },
+            {
                 name: "Project",
                 link: "#project"
+            },
+            {
+                name: "Contact",
+                link: "#contact"
             },
         ];
 
