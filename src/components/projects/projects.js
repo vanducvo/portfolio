@@ -3,14 +3,14 @@ import React from 'react';
 function Project(props){
     return (
         <div className="px-1 w-full rounded shadow-md mt-1 border boder-gray-200 bg-gray-100 pt-2 md:px-2 md:w-1/3 md:my-0">
-            <p class="text-md text-blue-500"><b className="text-gray-700">{props.name} / </b>{props.course}</p>
+            <p className="text-md text-blue-500"><b className="text-gray-700">{props.name} / </b>{props.course}</p>
             <p className="text-ms text-gray-500">From {props.from} to {props.to}</p>
             <ul className="pl-8 list-disc text-md">
                 <li>Programming Languages: <span className="text-gray-800">{props.language}</span></li>
                 <li>Team size: <span className="text-gray-800">{props.teamsize}</span></li>
                 <li>Responsibilities: <span className="text-gray-800">{props.respon}</span></li>
                 <li>Technologies: <span className="text-gray-800">{props.tech}</span></li>
-                <li>Source Control: <a className="text-blue-500" href={"https://"+ props.link}>{props.link}</a></li>
+                <li>Source Control: <a className="text-blue-500 break-words" href={"https://"+ props.link}>{props.link}</a></li>
             </ul>
         </div>
     );
@@ -27,7 +27,7 @@ function Projects(props){
             teamsize: 5,
             respon: 'Build database by MySQL. Implement feature: group chat (send text message only), play music page',
             tech: 'Backend: Django. Front-end: Bootstrap, JQuery',
-            link: 'github.com/vanducvo/LANMessenger'
+            link: 'github.com/vanducvo/music'
         },
         {
             name: 'Chat Application In LAN Network',
