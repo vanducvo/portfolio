@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9ad84e68.chunk.css",
-    "main.js": "/portfolio/static/js/main.31342db2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.31342db2.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.930baf97.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.930baf97.js.map",
-    "static/js/2.e88ad10f.chunk.js": "/portfolio/static/js/2.e88ad10f.chunk.js",
-    "static/js/2.e88ad10f.chunk.js.map": "/portfolio/static/js/2.e88ad10f.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.c7e5ad3e1c004ede71625d82f16b3098.js": "/portfolio/precache-manifest.c7e5ad3e1c004ede71625d82f16b3098.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9ad84e68.chunk.css.map": "/portfolio/static/css/main.9ad84e68.chunk.css.map",
-    "static/js/2.e88ad10f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e88ad10f.chunk.js.LICENSE.txt",
-    "static/media/expand.svg": "/portfolio/static/media/expand.61bc39bf.svg",
-    "static/media/logo.svg": "/portfolio/static/media/logo.7b2d7630.svg",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.e2eaa5f5.jpg"
+    "main.css": "/static/css/main.9ad84e68.chunk.css",
+    "main.js": "/static/js/main.a87f27e3.chunk.js",
+    "main.js.map": "/static/js/main.a87f27e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2a23a7a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2a23a7a.js.map",
+    "static/js/2.e88ad10f.chunk.js": "/static/js/2.e88ad10f.chunk.js",
+    "static/js/2.e88ad10f.chunk.js.map": "/static/js/2.e88ad10f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b9a05b69ccbca657a1f0f515081b4f69.js": "/precache-manifest.b9a05b69ccbca657a1f0f515081b4f69.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9ad84e68.chunk.css.map": "/static/css/main.9ad84e68.chunk.css.map",
+    "static/js/2.e88ad10f.chunk.js.LICENSE.txt": "/static/js/2.e88ad10f.chunk.js.LICENSE.txt",
+    "static/media/expand.svg": "/static/media/expand.61bc39bf.svg",
+    "static/media/logo.svg": "/static/media/logo.7b2d7630.svg",
+    "static/media/profile.jpg": "/static/media/profile.e2eaa5f5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.930baf97.js",
+    "static/js/runtime-main.c2a23a7a.js",
     "static/js/2.e88ad10f.chunk.js",
     "static/css/main.9ad84e68.chunk.css",
-    "static/js/main.31342db2.chunk.js"
+    "static/js/main.a87f27e3.chunk.js"
   ]
 }
