@@ -108,11 +108,11 @@ class Navigation extends React.Component{
             },
             {
                 name: "Skill",
-                link: "#skill"
+                link: "#skills"
             },
             {
-                name: "Project",
-                link: "#project"
+                name: "Projects",
+                link: "#projects"
             },
             {
                 name: "Contact",

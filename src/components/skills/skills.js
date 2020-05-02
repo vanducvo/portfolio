@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 function KList(props) {
     return (
@@ -16,7 +16,7 @@ function KLists(props) {
     );
 }
 
-function Skill(props){
+function Skills(props) {
     let flist = [
         {
             name: "Programming Languages",
@@ -83,18 +83,20 @@ function Skill(props){
         }
     ]
     return (
-        <div id="skill" className="w-full mt-2 rounded shadow-md bg-gray-100 pt-2 md:px-2 md:w-4/12 md:my-0">
-            <p className="font-bold text-xl mb-1">SKills</p>
-            <p className="text-gray-700 text-lg ml-4">
-                <b><i>Familiar With:</i></b>
-            </p>
-            <KLists klist={flist} />
-            <p className="text-gray-700 text-lg ml-4">
-                <b><i>Knowledgeable:</i></b>
-            </p>
-            <KLists klist={klist} />
+        <div id="skills" className="w-full mt-2 rounded shadow-md bg-gray-100 pt-2 md:px-2 md:w-4/12 md:my-0">
+            <div className="px-5 py-1">
+                <p className="font-bold text-xl mb-1">SKills</p>
+                <p className="text-gray-700 text-lg ml-4">
+                    <b><i>Familiar With:</i></b>
+                </p>
+                <KLists klist={flist} />
+                <p className="text-gray-700 text-lg ml-4">
+                    <b><i>Knowledgeable:</i></b>
+                </p>
+                <KLists klist={klist} />
+            </div>
         </div>
     );
 }
 
-export default Skill;
+export default Skills;
