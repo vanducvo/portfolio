@@ -47,7 +47,7 @@ function Projects(props){
             to: '2 May 2019',
             language: 'Javascript',
             teamsize: 1,
-            respon: 'Design and Inplement',
+            respon: 'Design and Implement',
             tech: 'ReactJS, Tailwind',
             link: 'github.com/vanducvo/portfolio'
         }
