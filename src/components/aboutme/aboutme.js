@@ -3,7 +3,7 @@ import Profile from '../../images/profile.jpg';
 
 function Avatar(props){
     return (
-        <img src={Profile} alt="Profile" className="w-7/12 md:w-full h-auto rounded self-center"/>
+        <img src={Profile} alt="Profile" className="w-2/5 h-auto rounded-full self-center pt-2 md:w-1/2"/>
     );
 }
 
@@ -14,18 +14,18 @@ function Tag(props){
 }
 
 function AboutMe(props){
-    let tags =["#webdeveloper", "#nodejs", "#1 May 2020"]
+    let tags =["#webdeveloper", "#1 May 2020"]
     return (
-        <div id="aboutme" className="w-full md:max-w-sm rounded shadow-md mx-1 flex flex-col h-auto bg-gray-100">
+        <div id="aboutme" className="w-full rounded shadow-md flex flex-col bg-gray-100 md:w-1/4">
             <Avatar />
             <div className="px-6 py-1">
                 <div className="font-bold text-xl mb-1">About Me</div>
-                <p className="text-gray-700 text-sm text-justify">
+                <p className="pl-4 text-gray-700 text-lg text-justify">
                     Hello, My full name is <b>Vo Van Duc</b>. I was born in <b>Quang Ngai</b> in <b>1999</b> but I grow up in <b>Ba Ria - Vung Tau</b>. I am studying in <b>Ho Chi Minh city University of Technology</b> also known as <b>Bach Khoa University</b> with majoring in <b>computer science</b>.
                 </p>
             </div>
             <div className="px-2 py-1">
-                {tags.map(v => <Tag tag={v} />)}
+                {tags.map(v => <Tag key={v} tag={v} />)}
             </div>
         </div>
     );
